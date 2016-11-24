@@ -83,9 +83,7 @@ Icon=$DEST/$DEST_FOLDER/zotero/chrome/icons/default/default48.png
 Type=Application
 StartupNotify=true" > $MENU_PATH
 if [ $? -ne 0 ]; then
-	echo ">>> Failed to create menu entry"
-	echo ">>> Aborting installation, sorry!"
-	exit 1
+  echo ">>> WARNING: Failed to create menu entry"
 fi
 
 echo ">>> Done!"
