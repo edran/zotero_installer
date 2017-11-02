@@ -1,4 +1,52 @@
-zotero-standalone (4.0.29.10-ubuntu1) xenial; urgency=medium
+zotero-standalone (5.0.23-ubuntu1) artful; urgency=medium
+
+  * Update for 5.0.23
+
+ -- Sebastiaan Mathot <sebastiaan@zebrafish>  Thu, 19 Oct 2017 09:38:58 +0200
+
+zotero-standalone (5.0.22-ubuntu1) artful; urgency=medium
+
+  * Update for 5.0.22
+
+ -- Sebastiaan Mathot <sebastiaan@zebrafish>  Wed, 11 Oct 2017 09:44:40 +0200
+
+zotero-standalone (5.0.21-ubuntu2) artful; urgency=medium
+
+  * Update for 5.0.21
+
+ -- Sebastiaan Mathot <sebastiaan@zebrafish>  Mon, 02 Oct 2017 10:08:40 +0200
+
+zotero-standalone (5.0.18-ubuntu1) zesty; urgency=medium
+
+  * Update for 5.0.18
+
+ -- Sebastiaan Mathot <sebastiaan@mantis>  Wed, 13 Sep 2017 16:56:43 +0200
+
+zotero-standalone (5.0.17-ubuntu1) zesty; urgency=medium
+
+  * Update for 5.0.17
+
+ -- Sebastiaan Mathot <sebastiaan@mantis>  Tue, 22 Aug 2017 18:01:45 +0200
+
+zotero-standalone (5.0.11-ubuntu1) zesty; urgency=medium
+
+  * Update for 5.0.11
+
+ -- Sebastiaan Mathot <sebastiaan@mantis>  Mon, 14 Aug 2017 10:26:50 +0200
+
+zotero-standalone (5.0.7-ubuntu1) zesty; urgency=medium
+
+  * Update for 5.0.7
+
+ -- Sebastiaan Mathot <sebastiaan@mantis>  Wed, 26 Jul 2017 10:03:03 +0200
+
+zotero-standalone (5.0.4-ubuntu2) zesty; urgency=medium
+
+  * Update for 5.0.4
+
+ -- Sebastiaan Mathot <sebastiaan@mantis>  Mon, 17 Jul 2017 10:18:24 +0200
+
+zotero-standalone (4.0.29.10-ubuntu4) xenial; urgency=medium
 
   * Update for 4.0.29.10
   * Use real Zotero icon

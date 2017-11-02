@@ -19,17 +19,21 @@
 # You should have received a copy of the GNU General Public License
 # along with qnotero.  If not, see <http://www.gnu.org/licenses/>.
 
-VERSION="4.0.29.10"
-ARCH="x86_64"
+VERSION="5.0.23"
+if [ `uname -m` == "x86_64" ]; then
+	ARCH="x86_64"
+else
+	ARCH="i686"
+fi
 TMP="/tmp/zotero.tar.bz2"
 DEST_FOLDER=zotero
 EXEC=zotero
 
-DEST="$HOME"
-MENU_PATH="$HOME/.local/share/applications/zotero.desktop"
-MENU_DIR="$HOME/.local/share/applications"
+DEST="/opt"
+MENU_PATH="/usr/share/applications/zotero.desktop"
+MENU_DIR="/usr/share/applications"
 
-URL="http://download.zotero.org/standalone/$VERSION/Zotero-${VERSION}_linux-$ARCH.tar.bz2"
+URL="https://download.zotero.org/client/release/${VERSION}/Zotero-${VERSION}_linux-${ARCH}.tar.bz2"
 
 echo ">>> Downloading Zotero standalone $VERSION for $ARCH"
 echo ">>> URL: $URL"
@@ -79,7 +83,7 @@ echo "[Desktop Entry]
 Name=Zotero
 Comment=Open-source reference manager (standalone version)
 Exec=$DEST/$DEST_FOLDER/zotero
-Icon=$DEST/$DEST_FOLDER/zotero/chrome/icons/default/default48.png
+Icon=$DEST/$DEST_FOLDER/chrome/icons/default/default48.png
 Type=Application
 StartupNotify=true" > $MENU_PATH
 if [ $? -ne 0 ]; then
